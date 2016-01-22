@@ -21,4 +21,19 @@ namespace Blog\Controller;
              'posts' => $this->postService->findAllPosts()
          ));
      }
+     public function detailAction()
+     {
+         $id = $this->params()->fromRoute('id');
+
+         try {
+             $post = $this->postService->findPost($id);
+         } catch (\InvalidArgumentException $ex) {
+             return $this->redirect()->toRoute('blog');
+         }
+
+         return new ViewModel(array(
+             'post' => $post
+         ));
+
+     }
  }
