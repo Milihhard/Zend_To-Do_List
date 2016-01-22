@@ -4,4 +4,4 @@ INSTALLATION:
   Pour installer, Créer une base de donnée ... puis utilisez le ....sql.
   
 UTILISATION:
-  Aucune idée
+  Pour utiliser
