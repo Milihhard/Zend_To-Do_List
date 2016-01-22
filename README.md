@@ -1,1 +1,7 @@
-# Zend_To-Do_List
+# ZEND GESTIONNAIRE DE BLOG
+
+INSTALLATION:
+  Pour installer, Créer une base de donnée ... puis utilisez le ....sql.
+  
+UTILISATION:
+  Aucune idée
