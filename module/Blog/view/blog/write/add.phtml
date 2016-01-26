@@ -1,8 +1,10 @@
 <!-- Filename: /module/Blog/view/blog/write/add.phtml -->
  <h1>add a blog: </h1>
-<p>
- <a href="<?php echo $this->url('blog');?>">Return to the blog list</a>
-</p>
+<a href="<?php echo $this->url('blog');?>">
+ <span class="btn btn-lg btn-primary" >Return to the blog list </span>
+</a>
+<br><br>
+
  <?php
  $form = $this->form;
  $form->setAttribute('action', $this->url());

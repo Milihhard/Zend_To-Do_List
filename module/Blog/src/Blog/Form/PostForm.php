@@ -22,6 +22,7 @@
              'type' => 'submit',
              'name' => 'submit',
              'attributes' => array(
+                 'class' => 'btn btn-lg btn-success',
                  'value' => 'Insert new Post'
              )
          ));
