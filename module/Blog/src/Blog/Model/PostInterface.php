@@ -24,4 +24,6 @@
       * @return string
       */
      public function getText();
+
+     public function getDeleteButton();
  }

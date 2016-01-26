@@ -19,6 +19,8 @@
       */
      protected $text;
 
+     protected $deleteButton;
+
      /**
       * {@inheritDoc}
       */
@@ -65,5 +67,17 @@
      public function setText($text)
      {
          $this->text = $text;
+     }
+     public function getDeleteButton()
+     {
+         return $this->$deleteButton;
+     }
+
+     /**
+      * @param string $text
+      */
+     public function setDeleteButton($deleteButton)
+     {
+         $this->$deleteButton = $deleteButton;
      }
  }

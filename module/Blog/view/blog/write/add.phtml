@@ -1,4 +1,5 @@
 <!-- Filename: /module/Blog/view/blog/write/add.phtml -->
+<div class="conteneur">
  <h1>add a blog: </h1>
 <a href="<?php echo $this->url('blog');?>">
  <span class="btn btn-lg btn-primary" >Return to the blog list </span>
@@ -15,3 +16,5 @@
  echo $this->formCollection($form);
 
  echo $this->form()->closeTag();
+?>
+</div>

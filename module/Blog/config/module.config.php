@@ -63,6 +63,16 @@
                                  'action'     => 'add'
                              )
                          )
+                     ),
+                     'delete' => array(
+                         'type' => 'literal',
+                         'options' => array(
+                             'route'    => '/delete',
+                             'defaults' => array(
+                                 'controller' => 'Blog\Controller\Write',
+                                 'action'     => 'delete'
+                             )
+                         )
                      )
                  )
              )

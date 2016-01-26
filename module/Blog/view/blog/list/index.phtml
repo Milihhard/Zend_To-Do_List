@@ -1,16 +1,24 @@
 <!-- Filename: /module/Blog/view/blog/list/index.phtml -->
- <h1>Blog</h1>
+<div class="conteneur">
+    <div class="haut">
+        <a class="floatant" href="<?php echo $this->url('blog/add'); ?>">
+            <span class="btn btn-lg btn-success">Add new blog </span>
+        </a>
+        <h1>Blog</h1>
 
-    <a href="<?php echo $this->url('blog/add');?>">
-        <span class="btn btn-lg btn-success" >Add new blog </span>
-    </a>
 
- <?php foreach ($this->posts as $post): ?>
- <article>
+    </div>
 
-     <h1 id="post<?= $post->getId() ?>"><?= $post->getTitle() ?></h1>
-     <p>
-         <?= $post->getText() ?>
-     </p>
- </article>
- <?php endforeach ?>
+    <?php
+    $i = 0;
+    foreach ($this->posts as $post): ?>
+        <article class="inline">
+
+            <h1 id="post<?= $post->getId() ?>"><?= $post->getTitle() ?></h1>
+            <p class="test">
+                <?= $post->getText() ?>
+            </p>
+
+        </article>
+    <?php endforeach ?>
+</div>
