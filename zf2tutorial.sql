@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Sam 23 Janvier 2016 à 11:00
+-- Généré le :  Mer 27 Janvier 2016 à 00:13
 -- Version du serveur :  10.0.17-MariaDB
 -- Version de PHP :  5.6.14
 
@@ -60,14 +60,12 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`id`, `title`, `text`) VALUES
-(1, 'Blog #1', 'Welcome to my first blog post'),
-(2, 'Blog #2', 'Welcome to my second blog post'),
-(3, 'Blog #3', 'Welcome to my third blog post'),
-(4, 'Blog #4', 'Welcome to my fourth blog post'),
-(5, 'Blog #5', 'Welcome to my fifth blog post'),
 (6, 'Hello', 'World'),
-(7, 'ZD', 'ZD'),
-(8, 'Random', 'Radom Post 2');
+(10, 'test', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque magna elit, condimentum quis nulla non, accumsan pretium nisi. Suspendisse vitae imperdiet lacus, quis pretium sapien. Ut vel dui enim. Nulla feugiat elit quis tempor semper. Phasellus fermentum nisi enim. In in felis ex. Nunc posuere rutrum leo et consectetur. Nulla malesuada, justo quis ultricies fermentum, sem orci bibendum orci, vitae lacinia justo tortor nec neque.'),
+(11, 'Lorem ipsum', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc massa ante, efficitur sed iaculis eleifend, porttitor ut nibh. Vestibulum pharetra auctor enim, vel commodo ligula rutrum vitae. Phasellus varius odio vitae est consectetur, sit amet dignissim elit dictum. Vestibulum sed turpis nibh. Vestibulum sit amet nisi quis lacus scelerisque consectetur. Nulla nisi libero, congue et nulla in, tincidunt semper diam. Duis vestibulum nibh lorem, et finibus erat posuere condimentum. Integer et accumsan diam, vel consequat enim. Nulla posuere dignissim mollis. Suspendisse eu dictum quam, in commodo lorem.'),
+(12, 'des blogs', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum orci ligula, et commodo sem tincidunt et. Aliquam ligula risus, tempus eu congue quis, convallis ut ante. Vivamus pharetra tempus hendrerit. In finibus quis nulla eget malesuada. Morbi in tempor risus, a vestibulum dolor. Vivamus in rhoncus dui. Donec quis auctor tortor, ut dignissim ex. Nam laoreet ac erat ut mollis. Etiam lectus ante, tincidunt eget efficitur vel, ornare ut lectus. Aliquam rutrum nec augue at vestibulum. Sed sollicitudin id nunc eget sollicitudin. Suspendisse mattis sapien id auctor pharetra. In hac habitasse platea dictumst.'),
+(13, 'dernier lorem', 'Proin finibus purus non fermentum facilisis. Mauris a varius ligula. Sed et nulla a dolor sollicitudin pharetra. Donec nibh arcu, tempor sed massa vel, sollicitudin mattis lorem. Aenean ex ipsum, feugiat ac elementum quis, vulputate id lorem. Phasellus sed sem nec mauris bibendum consectetur. Morbi ornare urna sit amet est dignissim, in tincidunt tellus aliquet. Aliquam auctor sapien neque, quis sodales neque porta nec. Suspendisse pulvinar vel ligula a faucibus. Sed mattis lectus non nulla faucibus congue. Mauris in neque velit. Etiam ligula neque, vestibulum sed mi ac, consequat porttitor leo.'),
+(14, 'nice', 'aujourd''hui j''ai mangé des pates');
 
 -- --------------------------------------------------------
 
@@ -123,7 +121,7 @@ ALTER TABLE `album`
 -- AUTO_INCREMENT pour la table `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 --
 -- AUTO_INCREMENT pour la table `user`
 --

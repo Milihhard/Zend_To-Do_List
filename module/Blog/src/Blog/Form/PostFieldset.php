@@ -22,17 +22,17 @@
 
          $this->add(array(
              'type' => 'text',
-             'name' => 'text',
+             'name' => 'title',
              'options' => array(
-                 'label' => 'The Text'
+                 'label' => 'Blog Title'
              )
          ));
 
          $this->add(array(
              'type' => 'text',
-             'name' => 'title',
+             'name' => 'text',
              'options' => array(
-                 'label' => 'Blog Title'
+                 'label' => 'The Text'
              )
          ));
      }
