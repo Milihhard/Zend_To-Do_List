@@ -3,8 +3,8 @@
  return array(// This lines opens the configuration for the RouteManager
      'db' => array(
          'driver'         => 'Pdo',
-         'username'       => 'super',  //edit this
-         'password'       => '1512',  //edit this
+         'username'       => 'root',  //edit this
+         'password'       => '',  //edit this
          'dsn'            => 'mysql:dbname=blog;host=localhost',
          'driver_options' => array(
              \PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
