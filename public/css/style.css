@@ -18,7 +18,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70d900', endColorstr='#57a900', GradientType=0);
 }
 .test{
-    color: green;
+    color: #135900;
     font-weight: bold;
 }
 body{
@@ -30,6 +30,9 @@ body{
 .conteneur{
     background-color: rgba(255,255,255,.5);
     padding: 20px;
+}
+.titre{
+    font-weight: bold;
 }
 .haut{
     display: inline;
